@@ -286,11 +286,22 @@ percent_wall_type %>%
 ---
 class: center, middle
 
-## Cross-referencing
+## Captioning
 
-Now that we have created the plot, we can reference it in the text.
+Now that we have created the plot, we can also create a caption.
 
-e.g. *Figure `\@ref(fig:rooms-village-scatter)` shows the relationship between the variables room and village, but doesn't do a very good job at it.*
+e.g. 
+
+<pre>
+&#96;&#96;&#96;{r rooms-village-scatter, fig.cap="This plot shows the relationship between the variables room and village,
+but doesn't do a very good job at it."}
+percent_wall_type %>%
+    ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+    geom_bar(stat = "identity", position = "dodge") +
+    theme_classic() +
+    scale_fill_viridis_d() # add colourblind-friendly palette
+&#96;&#96;&#96;
+</pre>
 
 ---
 class: center, middle
