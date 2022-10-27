@@ -48,7 +48,6 @@ style_duo(
 )
 ```
 
----
 class: center, middle, inverse
 
 ## R Markdown
@@ -98,7 +97,7 @@ class: center, middle
 
 ## Exercise 1
 
-`r emo::ji("clock")` **5 mins**
+`r emo::ji("clock")` **4 mins**
 
 Play around with the different options in the chunk with the code for the table,
 and re-Knit to see what each option does to the output.
@@ -107,7 +106,7 @@ What happens if you use `eval=FALSE` and `echo=FALSE`?
 
 What is the difference between this and `include=FALSE`?
 
-`r countdown::countdown(minutes = 5, color_running_background  = "lightgreen", color_running_text = "black", color_finished_background = "red", color_finished_text =  "grey30")`
+`r countdown::countdown(minutes = 4, color_running_background  = "lightgreen", color_running_text = "black", color_finished_background = "red", color_finished_text =  "grey30")`
 
 ---
 class: center, middle, inverse
@@ -237,7 +236,7 @@ class: center, middle
 
 ## Exercise 2
 
-`r emo::ji("clock")` **10 mins**
+`r emo::ji("clock")` **6 mins**
 
 Create a new code chunk with the label `rooms-village-scatter`.
 
@@ -248,7 +247,7 @@ Does this seem like a good way to display the relationship between these variabl
 
 What other kinds of plots might you use to show this type of data?
 
-`r countdown::countdown(minutes = 10, color_running_background  = "lightgreen", color_running_text = "black", color_finished_background = "red", color_finished_text =  "grey30")`
+`r countdown::countdown(minutes = 6, color_running_background  = "lightgreen", color_running_text = "black", color_finished_background = "red", color_finished_text =  "grey30")`
 
 ---
 class: middle, inverse
@@ -308,7 +307,7 @@ class: center, middle
 
 ## Exercise 3
 
-`r emo::ji("clock")` **5 mins**
+`r emo::ji("clock")` **4 mins**
 
 Boxplots are useful summaries, but hide the shape of the distribution. For example,
 if the distribution is bimodal, we would not see it in a boxplot.
@@ -335,7 +334,7 @@ class: center, middle
 
 ## Exercise 4
 
-`r emo::ji("clock")` **10 mins**
+`r emo::ji("clock")` **8 mins**
 
 Create a bar plot showing the proportion of respondents in each village who are 
 or are not part of an irrigation association (`memb_assoc`). 
@@ -382,7 +381,7 @@ class: center, middle
 
 ## Exercise 5
 
-`r emo::ji("clock")` **5 mins**
+`r emo::ji("clock")` **4 mins**
 
 Experiment with at least two different themes. Build the previous plot using each
 of those themes. 
